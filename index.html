@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GRPC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- navbar start  -->
+    <header class="nav_wrap">
+        <div class="nav_top">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <ul>
+                        <li>
+                            <img src="./assets/img/phone-call.svg" alt="">
+                            <p>+1 519-635-4593</p>
+                        </li>
+                        <li>
+                            <img src="./assets/img/location_pin.svg" alt="">
+                            <h6>Kitchener/Waterloo</h6>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Safety & Community </p>
+                        </li>
+                        <li>
+                            <h6>.</h6>
+                        </li>
+                        <li>
+                            <h6>Label Database</h6>
+                        </li>
+                        <li>
+                            <img src="./assets/img/canada_flag.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="nav_inner">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#"><img src="./assets/img/main_logo.svg" alt="" class="main_logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""><img src="./assets/img/burger.svg" alt=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 custom_gap">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Identify Pests
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    My Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    My Business
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About Us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="" class="button">Call/TEXT +1 519-731-6344</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- navbar end -->
+    <!-- hero wrap start  -->
+    <section class="hero_wrap">
+        <!-- <div class="hero_slick">
+            <div class="slide_wrap">
+                <div class="slide_img">
+                    <img src="./assets/img/hero_wrap.jpg" alt="">
+                </div>
+                <div class="hero_inner">
+                    <h6>Servicing Kitchener, Waterloo, Cambridge, Guelph & Surrounding Areas</h6>
+                    <h1>Pests in your home? Let us help treat them.</h1>
+                    <div class="btnz_wrap">
+                        <a href="" class="button">Pest Control For Your Business</a>
+                        <a href="" class="button">Pest Control For Your Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide_wrap">
+                <div class="slide_img">
+                    <img src="./assets/img/hero_wrap.jpg" alt="">
+                </div>
+                <div class="hero_inner">
+                    <h6>Servicing Kitchener, Waterloo, Cambridge, Guelph & Surrounding Areas</h6>
+                    <h1>Pests in your home? Let us help treat them.</h1>
+                    <div class="btnz_wrap">
+                        <a href="" class="button">Pest Control For Your Business</a>
+                        <a href="" class="button">Pest Control For Your Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide_wrap">
+                <div class="slide_img">
+                    <img src="./assets/img/hero_wrap.jpg" alt="">
+                </div>
+                <div class="hero_inner">
+                    <h6>Servicing Kitchener, Waterloo, Cambridge, Guelph & Surrounding Areas</h6>
+                    <h1>Pests in your home? Let us help treat them.</h1>
+                    <div class="btnz_wrap">
+                        <a href="" class="button">Pest Control For Your Business</a>
+                        <a href="" class="button">Pest Control For Your Home</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="gallery_wrap">
+                <div class="gallery_img w_25">
+                    <img src="./assets/img/hero1.jpg" alt="">
+                </div>
+                <div class="w_25">
+                    <div class="gallery_img small_img">
+                        <img src="./assets/img/hero2.jpg" alt="">
+                    </div>
+                    <div class="gallery_img small_img">
+                        <img src="./assets/img/hero3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="gallery_img w_25">
+                    <img src="./assets/img/hero4.jpg" alt="">
+                </div>
+                <div class="gallery_img w_25">
+                    <img src="./assets/img/hero5.jpg" alt="">
+                </div>
+                <div class="gallery_img w_50">
+                    <img src="./assets/img/hero6.jpg" alt="">
+                </div>
+                <div class="gallery_img w_25">
+                    <img src="./assets/img/hero7.jpg" alt="">
+                </div>
+                <div class="gallery_img w_25">
+                    <img src="./assets/img/hero8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero wrap end -->
+    <!-- partner wrap start  -->
+    <section class="partner_wrap">
+        <div class="container">
+            <div class="partner_inner">
+                <div class="partner_box">
+                    <img src="./assets/img/warrenty.svg" alt="">
+                    <h4>6-Month Guarantee</h4>
+                    <h5>
+                        Feel at ease knowing you are
+                        <span>protected</span> for <span> 6-months after our treatment</span>
+                    </h5>
+                </div>
+                <div class="partner_box">
+                    <img src="./assets/img/wallet.svg" alt="">
+                    <h4>Affordable Rates</h4>
+                    <h5>
+                        Always affordable for your family. <span> Lowest Rates Guaranteed. </span>
+                    </h5>
+                </div>
+                <div class="partner_box">
+                    <img src="./assets/img/setting.svg" alt="">
+                    <h4>Licensed Exterminators</h4>
+                    <h5>
+                        <span> Ontario Ministry of Environment (MOE) licensed </span>
+                        exterminators with
+                        20+ years of experience.
+                    </h5>
+                </div>
+                <div class="partner_box">
+                    <img src="./assets/img/lisence.svg" alt="">
+                    <h4>Consumer’s Choice Award
+                    </h4>
+                    <h5>
+                        <span> 4.9/5 stars on Google Reviews. </span>
+                        Thousands of satisfied customers
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- partner wrap end -->
+
+    <!-- Speak to an Exterminator start  -->
+    <section class="book_inspection">
+        <div class="container">
+            <h1>Speak to an Exterminator</h1>
+            <form action="" class="inspection_form">
+                <div class="form_group">
+                    <label for="">
+                        <h6>Your Full Name *</h6>
+                    </label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form_group">
+                    <label for="">
+                        <h6>Email Address *</h6>
+                    </label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form_group">
+                    <label for="">
+                        <h6>Your City</h6>
+                    </label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form_group">
+                    <label for="">
+                        <h6>Phone Number *</h6>
+                    </label>
+                    <input type="number" class="form-control">
+                </div>
+                <div class="form_group">
+                    <label for="">
+                        <h6>Please Describe Your Pest Issue *</h6>
+                    </label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control">Yourname@mail.com</textarea>
+                </div>
+                <div class="form_group mt-auto">
+                    <div class="file_upload">
+                        <input type="file" id="fileInput" style="display:none;">
+                        <button type="button" onclick="document.getElementById('fileInput').click()"><img
+                                src="./assets/img/upload.svg" alt="">
+                            <p>Click or drag a pest image to this area to upload.</p>
+                        </button>
+                    </div>
+                </div>
+                <a href="" class="button submit_btn mx-auto">Submit</a>
+            </form>
+        </div>
+    </section>
+    <!-- Book inspection end -->
+
+    <!-- treatment gallery start  -->
+    <section class="treatment_gallery">
+        <div class="container">
+            <h1>See Treatments In Action</h1>
+            <div class="gallery_wrap">
+                <div class="gallery_column">
+                    <div class="gallery_img small_img">
+                        <img src="./assets/img/treatment_gallery1.jpg" alt="">
+                    </div>
+                    <div class="gallery_img large_img">
+                        <img src="./assets/img/treatment_gallery4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="gallery_column">
+                    <div class="gallery_img large_img">
+                        <img src="./assets/img/treatment_gallery2.jpg" alt="">
+                    </div>
+                    <div class="gallery_img small_img">
+                        <img src="./assets/img/treatment_gallery5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="gallery_column">
+                    <div class="gallery_img small_img">
+                        <img src="./assets/img/treatment_gallery3.jpg" alt="">
+                    </div>
+                    <div class="gallery_img large_img">
+                        <img src="./assets/img/treatment_gallery6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- treatment gallery end -->
+    <!-- water loo start  -->
+    <section class="waterloo_wrap">
+        <div class="container">
+            <div class="d-flex flex-wrap">
+                <div class="waterloo_content">
+                    <h1>Our Priority is to ensure your satisfaction </h1>
+                    <ul>
+                        <li>
+                            <h2>At Grand river pest control, we are not satisfied Until you are. That’s why almost
+                                all of our treatments include a 6-month guarantee for your peace of mind. </h2>
+                        </li>
+                        <li>
+                            <h2>Our Licensed Exterminators are also experts in entomonlogy and understand Pest
+                                behaviour and lifecycles. </h2>
+                        </li>
+                        <li>
+                            <h2>
+                                They utilzie premium grade pesticides and use power machines while having the lowest
+                                rates. </h2>
+                        </li>
+                        <li>
+                            <h2 class="fw_600">
+                                our priority is your safety and the well-being of your family.
+                            </h2>
+                        </li>
+                        <li>
+                            <div class="signature">
+                                Grand River Pest Control
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="waterloo_img">
+                    <img src="./assets/img/waterloo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- water loo end -->
+
+    <!-- free troll start  -->
+    <section class="free_troll">
+        <div class="container">
+            <h1>Step 1: Identify Your Pest</h1>
+            <div class="troll_slick">
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/mouse.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Mice</h6>
+                            <h6 class="mt-0 fw_300 text-start">Mice can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Mouse</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/cockroach.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">cockroach</h6>
+                            <h6 class="mt-0 fw_300 text-start">cockroach can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Cookroach</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Wasps.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Wasps</h6>
+                            <h6 class="mt-0 fw_300 text-start">Wasps can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Wasps</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Flies.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Flies</h6>
+                            <h6 class="mt-0 fw_300 text-start">Flies can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Flies</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/mouse.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Mice</h6>
+                            <h6 class="mt-0 fw_300 text-start">Mice can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Mouse</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/cockroach.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">cockroach</h6>
+                            <h6 class="mt-0 fw_300 text-start">cockroach can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Cookroach</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Wasps.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Wasps</h6>
+                            <h6 class="mt-0 fw_300 text-start">Wasps can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Wasps</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Flies.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Flies</h6>
+                            <h6 class="mt-0 fw_300 text-start">Flies can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Flies</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Flies.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Flies</h6>
+                            <h6 class="mt-0 fw_300 text-start">Flies can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Flies</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Flies.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Flies</h6>
+                            <h6 class="mt-0 fw_300 text-start">Flies can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Flies</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Flies.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Flies</h6>
+                            <h6 class="mt-0 fw_300 text-start">Flies can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Flies</h6>
+                </div>
+                <div class="troll_box">
+                    <div class="troll_img">
+                        <img src="./assets/img/Flies.svg" alt="">
+                        <div class="hover_content">
+                            <h6 class="mt-0 text-start">Flies</h6>
+                            <h6 class="mt-0 fw_300 text-start">Flies can live without a water source. They get their
+                                water from the food they eat. This allows them to live and nest in areas far away from
+                                regular water sources.</h6>
+                        </div>
+                    </div>
+                    <h6>Flies</h6>
+                </div>
+            </div>
+            <a href="" class="button submit_btn mx-auto">See Pest Catalogue</a>
+        </div>
+    </section>
+    <!-- free troll end -->
+    <!-- Inspection and Treatment start  -->
+    <section class="free_troll p-0">
+        <div class="container">
+            <h1>Step 2: Inspection and Treatment</h1>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="inspection_content">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Integrated Pest Management (IPM)
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <ul>
+                                        <li>
+                                            <h6>IPM is a science-based decision-making process that emphasizes 
+                                                prevention, knowledge of pest biology, the use of least-disruptive control 
+                                                tactics, and the judicious use of pesticides. Through IPM, we address 
+                                                the reasons why we have pests in the first place and take steps to 
+                                                prevent future pest incidents. Once established, this program 
+                                                can easily be incorporated into any existing environmental 
+                                                and coordinated health program with committee oversight and 
+                                                reporting requirements. </h6>
+                                        </li>
+                                        <li>
+                                            <h6>Pests need food, water and shelter to survive, and the goal of 
+                                                IPM is to deny them these necessities. IPM does this by instituting 
+                                                a combination of commonsense practices that prevent pests from 
+                                                infesting buildings and grounds by both limiting access and reducing 
+                                                their attractiveness. </h6>
+                                        </li>
+                                        <li>
+                                            <h6>IPM is not a single pest control approach, but 
+                                                rather a strategy of combined approaches that synergize to limit a 
+                                                pest’s ability to survive and thrive.
+                                                </h6>
+                                        </li>
+                                       </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Preventing structural damage
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                         <li>
+                                             <h6>IPM is a science-based decision-making process that emphasizes 
+                                                 prevention, knowledge of pest biology, the use of least-disruptive control 
+                                                 tactics, and the judicious use of pesticides. Through IPM, we address 
+                                                 the reasons why we have pests in the first place and take steps to 
+                                                 prevent future pest incidents. Once established, this program 
+                                                 can easily be incorporated into any existing environmental 
+                                                 and coordinated health program with committee oversight and 
+                                                 reporting requirements. </h6>
+                                         </li>
+                                         <li>
+                                             <h6>Pests need food, water and shelter to survive, and the goal of 
+                                                 IPM is to deny them these necessities. IPM does this by instituting 
+                                                 a combination of commonsense practices that prevent pests from 
+                                                 infesting buildings and grounds by both limiting access and reducing 
+                                                 their attractiveness. </h6>
+                                         </li>
+                                         <li>
+                                             <h6>IPM is not a single pest control approach, but 
+                                                 rather a strategy of combined approaches that synergize to limit a 
+                                                 pest’s ability to survive and thrive.
+                                                 </h6>
+                                         </li>
+                                        </ul>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Monitoring activity
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                         <li>
+                                             <h6>IPM is a science-based decision-making process that emphasizes 
+                                                 prevention, knowledge of pest biology, the use of least-disruptive control 
+                                                 tactics, and the judicious use of pesticides. Through IPM, we address 
+                                                 the reasons why we have pests in the first place and take steps to 
+                                                 prevent future pest incidents. Once established, this program 
+                                                 can easily be incorporated into any existing environmental 
+                                                 and coordinated health program with committee oversight and 
+                                                 reporting requirements. </h6>
+                                         </li>
+                                         <li>
+                                             <h6>Pests need food, water and shelter to survive, and the goal of 
+                                                 IPM is to deny them these necessities. IPM does this by instituting 
+                                                 a combination of commonsense practices that prevent pests from 
+                                                 infesting buildings and grounds by both limiting access and reducing 
+                                                 their attractiveness. </h6>
+                                         </li>
+                                         <li>
+                                             <h6>IPM is not a single pest control approach, but 
+                                                 rather a strategy of combined approaches that synergize to limit a 
+                                                 pest’s ability to survive and thrive.
+                                                 </h6>
+                                         </li>
+                                        </ul>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Chemical, Gel & Bait, Aerosol Treatments
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                         <li>
+                                             <h6>IPM is a science-based decision-making process that emphasizes 
+                                                 prevention, knowledge of pest biology, the use of least-disruptive control 
+                                                 tactics, and the judicious use of pesticides. Through IPM, we address 
+                                                 the reasons why we have pests in the first place and take steps to 
+                                                 prevent future pest incidents. Once established, this program 
+                                                 can easily be incorporated into any existing environmental 
+                                                 and coordinated health program with committee oversight and 
+                                                 reporting requirements. </h6>
+                                         </li>
+                                         <li>
+                                             <h6>Pests need food, water and shelter to survive, and the goal of 
+                                                 IPM is to deny them these necessities. IPM does this by instituting 
+                                                 a combination of commonsense practices that prevent pests from 
+                                                 infesting buildings and grounds by both limiting access and reducing 
+                                                 their attractiveness. </h6>
+                                         </li>
+                                         <li>
+                                             <h6>IPM is not a single pest control approach, but 
+                                                 rather a strategy of combined approaches that synergize to limit a 
+                                                 pest’s ability to survive and thrive.
+                                                 </h6>
+                                         </li>
+                                        </ul>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+<div class="ipm_img">
+    <img src="./assets/img/IPM.jpg" alt="">
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inspection and Treatment end -->
+
+    <!-- building sec start  -->
+    <section>
+        <div class="container">
+            <div class="position-relative">
+            <div class="building_img">
+                <img src="./assets/img/building.svg" alt="">
+            </div>
+            <div class="building_content">
+                Residential & <br> Commercial Services
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- building sec end -->
+    <!-- pest control sec start  -->
+    <section class="pest_control">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <h1>Pest Control Newsletters</h1>
+                <a href="" class="button flex_align">Read all articles</a>
+            </div>
+            <div class="control_boxes">
+                <div class="control_box">
+                    <div class="pest_img">
+                        <img src="./assets/img/pest1.jpg" alt="">
+                    </div>
+                    <span>April 02, 2021</span>
+                    <h5>06 ways to do workout inside your home during Covid-19</h5>
+                </div>
+                <div class="control_box">
+                    <div class="pest_img">
+                        <img src="./assets/img/pest2.jpg" alt="">
+                    </div>
+                    <span>March 26, 2021</span>
+                    <h5>How is the pandemic affecting the way people work?</h5>
+                </div>
+                <div class="control_box">
+                    <div class="pest_img">
+                        <img src="./assets/img/pest3.jpg" alt="">
+                    </div>
+                    <span>March 19, 2021</span>
+                    <h5>The parent’s balancing act: using the word ‘No’</h5>
+                </div>
+                <div class="control_box">
+                    <div class="pest_img">
+                        <img src="./assets/img/pest4.jpg" alt="">
+                    </div>
+                    <span>March 26, 2021</span>
+                    <h5>How is the pandemic affecting the way people work?</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pest control sec end -->
+ 
+    <!-- customer wrap start  -->
+    <div class="customer_wrap">
+        <div class="container">
+            <div class="customer_slick">
+                <div class="customer_box">
+                    <h1>See what our customers have to say!</h1>
+                    <h2>4.6 out of 5 stars from 8.6k reviews</h2>
+                    <p>I use them for quarterly maintenance bug and spiders 🕷️ spray. The service people (Mike) are
+                        always friendly but professional. They text or email me the day before so I know they are
+                        coming. T They spray around my house, my yards and clean up spider webs.
+                    </p>
+                    <div class="review_row">
+                        <div class="starz_wrap">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                        </div>
+                        <h6>Laurie H. <span>- ABC Company</span></h6>
+                    </div>
+                </div>
+                <div class="customer_box">
+                    <h1>What our customer have to says ?</h1>
+                    <h2>4.6 out of 5 stars from 8.6k reviews</h2>
+                    <p>I use them for quarterly maintenance bug and spiders 🕷️ spray. The service people (Mike) are
+                        always friendly but professional. They text or email me the day before so I know they are
+                        coming. T They spray around my house, my yards and clean up spider webs.
+                    </p>
+                    <div class="review_row">
+                        <div class="starz_wrap">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                        </div>
+                        <h6>Laurie H. <span>- ABC Company</span></h6>
+                    </div>
+                </div>
+                <div class="customer_box">
+                    <h1>What our customer have to says ?</h1>
+                    <h2>4.6 out of 5 stars from 8.6k reviews</h2>
+                    <p>I use them for quarterly maintenance bug and spiders 🕷️ spray. The service people (Mike) are
+                        always friendly but professional. They text or email me the day before so I know they are
+                        coming. T They spray around my house, my yards and clean up spider webs.
+                    </p>
+                    <div class="review_row">
+                        <div class="starz_wrap">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                        </div>
+                        <h6>Laurie H. <span>- ABC Company</span></h6>
+                    </div>
+                </div>
+                <div class="customer_box">
+                    <h1>What our customer have to says ?</h1>
+                    <h2>4.6 out of 5 stars from 8.6k reviews</h2>
+                    <p>I use them for quarterly maintenance bug and spiders 🕷️ spray. The service people (Mike) are
+                        always friendly but professional. They text or email me the day before so I know they are
+                        coming. T They spray around my house, my yards and clean up spider webs.
+                    </p>
+                    <div class="review_row">
+                        <div class="starz_wrap">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                            <img src="./assets/img/star.svg" alt="">
+                        </div>
+                        <h6>Laurie H. <span>- ABC Company</span></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- customer wrap end -->
+
+    <!-- footer start  -->
+    <footer class="footer_wrap">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="row custom_gap">
+                    <div class="col-lg-4">
+                        <div class="footer_content">
+                            <div class="main_logo">
+                                <img src="./assets/img/footer_logo.svg" alt="">
+                            </div>
+                            <h6>Office: 260 Carson Dr, Kitchener ON N2B2W2</h6>
+                            <h6><a href="">Email: services@grpestcontrol.ca</a></h6>
+                            <h6><a href="">Phone: 519-731-6344</a></h6>
+                            <h6>Service Locations: Kitchener, Waterloo, Cambridge, Guelph, Woodstock, Hamilton, London &
+                                surrounding areas.</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer_content">
+                            <p>Pest Library</p>
+                            <ul>
+                                <li>
+                                    <h6><a href="">Ants</a></h6>
+                                </li>
+                                <li>
+                                    <h6><a href="">Cockroaches</a></h6>
+                                </li>
+                                <li>
+                                    <h6><a href="">Bed Bugs</a></h6>
+                                </li>
+                                <li>
+                                    <h6><a href="">Rodents</a></h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer_content">
+                            <p>Company</p>
+                            <ul>
+                                <li>
+                                    <h6><a href="">About Us</a></h6>
+                                </li>
+                                <li>
+                                    <h6><a href="">Terms Of Use</a></h6>
+                                </li>
+                                <li>
+                                    <h6><a href="">Privacy Policy</a></h6>
+                                </li>
+                                <li>
+                                    <h6><a href="">Careers</a></h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer_content newsletter_wrap">
+                            <p>Join Our Newsletter</p>
+                            <h6>Just insert your email into the field below. And you will get the updates about pest
+                                services from us.</h6>
+                            <form action="" class="footer_form">
+                                <img src="./assets/img/email.svg" alt="">
+                                <input type="text" class="form-control" placeholder="Your Emaill">
+                                <a href="" class="button subscribe_btn">Subscribe</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_social">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <h6>Copyright © 2019. grand river pest control</h6>
+                    <div class="social_icons">
+                        <a href=""><img src="./assets/img/google.svg" alt=""></a>
+                        <a href=""><img src="./assets/img/tw.svg" alt=""></a>
+                        <a href=""><img src="./assets/img/inst.svg" alt=""></a>
+                        <a href=""><img src="./assets/img/in.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <a class="call_btn flex_align" href="tel:5197316344">
+        <img src="./assets/img/phone_icon.svg" alt="">
+        <span>Call or Text Exterminator</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/jquery3.3.1.min.js"></script>
+    <script src="assets/js/slick-carousel1.9.0.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

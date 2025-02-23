@@ -1,0 +1,89 @@
+.nav_top {
+    background-color: $primaryColor;
+    color: $ColorWhite;
+    padding: 13px 0;
+
+    img {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: calc(50% - 10px);
+
+        p,
+        h6 {
+            display: inline-block;
+        }
+
+        &:last-child {
+            justify-content: end;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}
+
+.nav_inner {
+    padding: 12px 0;
+    .navbar-brand {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    .nav-link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #2B2B2B;
+        padding: 0 !important;
+
+        &.active {
+            color: #154E84;
+        }
+    }
+
+    .custom_gap {
+        gap: 50px;
+    }
+
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &::after {
+            content: url(../img/drop_chev.svg);
+            border: none;
+        }
+
+    }
+    
+    .button {
+        font-size: 18px;
+        border-radius: 0;
+        font-weight: 700;
+    }
+}
+
+.btnz_wrap {
+    display: flex;
+    align-items: center;
+
+    .login_btn {
+        background-color: unset;
+        color: #2B2B2B;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,815 @@
+@media screen and (max-width: 1560px) {
+    .nav_inner .navbar-brand {
+        max-width: 200px;
+    }
+
+    .hero_inner h1 {
+        font-size: 35px;
+    }
+
+    .book_inspection .container {
+        padding: 40px 50px 60px 50px;
+    }
+
+    .book_inspection h1 {
+        font-size: 35px;
+    }
+
+    .button.submit_btn {
+        max-width: 460px;
+    }
+
+
+
+    .waterloo_wrap {
+        padding: 110px 0;
+    }
+
+    .waterloo_content h1 {
+        font-size: 35px;
+    }
+
+    .waterloo_content .pesticide_img {
+        max-width: 120px;
+    }
+
+    .waterloo_content li+li {
+        margin-top: 35px;
+    }
+
+    .affordable_inner {
+        padding: 95px 0;
+    }
+
+    .affordable_inner .affordable_img {
+        max-width: 110px;
+    }
+
+    .free_troll {
+        padding: 90px 0;
+    }
+
+    .free_troll h1 {
+        font-size: 35px;
+    }
+
+    .coffee_cup h2 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+
+    .step_content h1 {
+        font-size: 28px;
+    }
+
+    .customer_wrap .quote_img {
+        width: 80px;
+        top: 90px;
+    }
+
+    .customer_wrap {
+        background-position: center;
+        padding-bottom: 155px;
+    }
+
+    .customer_box h1 {
+        font-size: 40px;
+    }
+
+    .customer_box h2 {
+        margin-bottom: 45px;
+    }
+
+    .customer_box p {
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    .nav_inner .navbar-brand {
+        max-width: 140px;
+    }
+
+    .button {
+        padding: 12px 20px;
+    }
+
+    .hero_wrap .slide_img {
+        height: calc(100vh - 134px);
+    }
+
+    .partner_inner .partner_img {
+        max-width: 160px;
+    }
+
+    .container {
+        max-width: 1165px;
+    }
+
+    .inspection_form {
+        margin-top: 30px;
+    }
+
+    .button.submit_btn {
+        max-width: 370px;
+    }
+
+    .pestDetail_box li {
+        max-width: 90px;
+        padding: 5px 10px 12px 10px;
+    }
+
+    .pestDetail_box li .line_one {
+        height: 5px;
+        width: 35px;
+        margin-bottom: 4px;
+    }
+
+    .pestDetail_box li .line_two {
+        height: 5px;
+        width: 55px;
+    }
+
+    .pestDetail_box li img {
+        height: 45px;
+    }
+
+    .pest_box::before {
+        height: 300px;
+        top: -27px;
+    }
+
+    .customer_box h1 {
+        font-size: 35px;
+    }
+
+    .customer_box h2 {
+        font-size: 20px;
+    }
+
+    .customer_box p {
+        font-size: 20px;
+    }
+
+    .footer_wrap .footer_inner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .troll_slick .hover_content {
+        padding: 10px 15px;
+        width: 250px;
+    }
+
+    .building_content {
+        padding: 40px 15px;
+    }
+
+    .troll_slick h6 {
+        font-size: 17px;
+    }
+
+    .troll_slick .troll_box {
+        max-width: 190px;
+    }
+
+    .troll_slick {
+        margin-top: 0;
+    }
+
+    .treatment_gallery .gallery_img.small_img img {
+        height: 205px;
+    }
+
+    .treatment_gallery .gallery_img.large_img img {
+        height: 350px;
+    }
+
+    .customer_wrap .quote_img {
+        top: 60px;
+    }
+
+    .partner_inner .partner_box {
+        padding: 40px 15px 50px 15px;
+    }
+
+    .nav_inner .nav-link {
+        font-size: 14px;
+    }
+
+    .nav_inner .custom_gap {
+        gap: 30px;
+    }
+
+    .hero_wrap .slide_img {
+        height: calc(100vh - 116px);
+    }
+
+    .inspection_form input {
+        height: 50px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    .waterloo_content h1 {
+        font-size: 30px;
+    }
+
+    .waterloo_content h2 {
+        font-size: 18px;
+    }
+
+    .waterloo_content .pesticide_img {
+        max-width: 95px;
+    }
+
+    .waterloo_content li+li {
+        margin-top: 25px;
+    }
+
+    .waterloo_wrap {
+        padding: 80px 0;
+    }
+
+    .affordable_inner .affordable_img {
+        max-width: 80px;
+    }
+
+    .affordable_inner h1 {
+        font-size: 30px;
+    }
+
+    .affordable_inner {
+        padding: 70px 0;
+    }
+
+    .free_troll {
+        padding: 70px 0;
+    }
+
+    .free_troll h1 {
+        font-size: 30px;
+    }
+
+    .free_troll .container {
+        max-width: 1120px;
+    }
+
+    .customer_box h1 {
+        font-size: 28px;
+    }
+}
+
+// ipad pro 
+@media screen and (max-width: 1199.98px) {
+
+
+    .nav_inner .custom_gap {
+        gap: 10px;
+    }
+
+    .nav_inner .button {
+        font-size: 15px;
+    }
+
+    .nav_top img {
+        margin-right: 5px;
+    }
+
+    .hero_wrap .slide_img {
+        height: 50vh;
+    }
+
+    .hero_inner {
+        width: 100%;
+    }
+
+    .partner_inner .partner_img {
+        max-width: 136px;
+    }
+
+    .hero_wrap {
+        position: relative;
+    }
+
+    .inspection_form input {
+        height: 45px;
+    }
+
+    .waterloo_content li {
+        gap: 10px;
+    }
+
+    .waterloo_content .pesticide_img {
+        max-width: 85px;
+    }
+
+    .free_troll .container {
+        max-width: 915px;
+    }
+
+    .customer_wrap {
+        padding-top: 220px;
+    }
+
+    .customer_wrap .quote_img {
+        width: 70px;
+        top: 60px;
+    }
+}
+
+// ipad 
+@media screen and (max-width: 991.98px) {
+    .troll_slick .troll_box {
+        max-width: 120px;
+    }
+
+    .partner_inner .partner_box {
+        padding: 30px 5px 30px 5px;
+    }
+
+    .partner_inner .partner_box h4 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .treatment_gallery .gallery_wrap {
+        justify-content: center;
+    }
+
+    .nav_inner .navbar-toggler {
+        padding: 0;
+        border: none;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    .nav_inner .custom_gap {
+        gap: 20px;
+        padding: 15px 0;
+        align-items: center;
+    }
+
+    .hero_inner .btnz_wrap {
+        justify-content: center;
+    }
+
+    .hero_inner h1 {
+        font-size: 30px;
+    }
+
+    .hero_inner .btnz_wrap .button {
+        height: 48px;
+    }
+
+    .partner_inner .partner_img {
+        max-width: 100px;
+    }
+
+    .book_inspection .container {
+        padding: 25px 20px;
+        max-width: 720px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inspection_form .form_group {
+        width: calc(50% - 10px);
+    }
+
+    .inspection_form .file_upload p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .book_inspection h1 {
+        font-size: 30px;
+    }
+
+    .button.submit_btn {
+        max-width: 300px;
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    .waterloo_content li {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .waterloo_content h1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .affordable_inner {
+        padding: 50px 15px;
+    }
+
+    .free_troll .container {
+        max-width: 670px;
+    }
+
+    .pest_box {
+        gap: 30px;
+        margin-bottom: 40px;
+        justify-content: center;
+
+        &.pest__box {
+            &::before {
+                height: 240px;
+                max-width: 440px;
+                top: -27px;
+                left: 50%;
+            }
+        }
+    }
+
+    .pest_box::before {
+        height: 300px;
+        max-width: 530px;
+        top: -27px;
+        left: 47%;
+        transform: translateX(-50%);
+    }
+
+    .step2_img {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .pestDetail_box {
+        max-width: 460px;
+    }
+
+    .pest_row {
+        padding-top: 0px;
+    }
+
+    .step_content ul {
+        margin-bottom: 50px;
+    }
+
+    .coffee_cup {
+        margin-bottom: 0;
+    }
+}
+
+// mobile 
+@media screen and (max-width: 575.98px) {
+    .partner_inner .partner_box {
+        width: 100%;
+        border-left: 0;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .partner_inner .partner_box:last-child {
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+    .nav_top ul {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .gallery_wrap .w_25 {
+        width: calc(50% - 7px);
+    }
+
+    .gallery_wrap .w_50 {
+        width: calc(100% - 7px);
+    }
+
+    .gallery_wrap {
+        justify-content: center;
+    }
+
+    .nav_top ul p {
+        font-size: 14px;
+    }
+
+    .nav_top ul {
+        &+ul {
+            margin-top: 10px;
+        }
+    }
+
+    .control_boxes .control_box {
+        width: 100%;
+    }
+
+    .control_boxes {
+        gap: 10px;
+    }
+
+    .building_img {
+        height: 300px;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .troll_slick .troll_img {
+        height: 120px;
+    }
+
+    .troll_slick .troll_box {
+        max-width: 100%;
+    }
+
+    .troll_slick .hover_content {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -110%);
+    }
+
+    .troll_slick .hover_content::before {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-top: 10px solid #fff;
+        left: auto;
+        bottom: -20px;
+    }
+
+    .waterloo_content {
+        width: 100%;
+    }
+
+    .waterloo_img {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .treatment_gallery .gallery_column {
+        gap: 10px;
+        width: calc(50% - 10px);
+    }
+
+    .treatment_gallery .gallery_wrap {
+        gap: 10px;
+    }
+
+    .waterloo_content h1 {
+        font-size: 21px;
+    }
+
+    .waterloo_content ul {
+        margin-top: 20px;
+    }
+
+    .waterloo_content li+li {
+        margin-top: 10px;
+    }
+
+    .control_boxes .control_box span {
+        margin-top: 10px;
+    }
+
+    .building_content {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    .nav_top {
+        padding: 5px 0;
+    }
+
+    .hero_wrap .slide_img {
+        height: 80vh;
+    }
+
+    .hero_inner {
+        padding: 0 15px;
+    }
+
+    .hero_inner .btnz_wrap {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .partner_inner {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .inspection_form .form_group {
+        width: 100%;
+    }
+
+    .book_inspection .container {
+        padding: 12px;
+        max-width: 350px;
+        border-radius: 15px;
+    }
+
+    .inspection_form textarea {
+        height: 140px;
+    }
+
+    .inspection_form .file_upload {
+        height: 140px;
+    }
+
+    .waterloo_wrap {
+        padding: 50px 0;
+    }
+
+    .waterloo_content li {
+        flex-wrap: wrap;
+    }
+
+    .waterloo_content .pesticide_img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .affordable_inner {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pestDetail_box li {
+        max-width: 65px;
+        padding: 5px;
+    }
+
+    .pestDetail_box li img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .pestDetail_box {
+        gap: 5px;
+        max-width: 280px;
+    }
+
+    .pest_row li {
+        width: 25px;
+        height: 25px;
+    }
+
+    .pest_row li.active_pest {
+        padding: 3px;
+    }
+
+    .pest_box {
+        gap: 20px;
+    }
+
+    .pest_box::before {
+        height: 195px;
+        max-width: 530px;
+        top: -15px;
+        left: 50%;
+    }
+
+    .step_line {
+        max-width: 215px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .step2_img {
+        max-width: 225px;
+    }
+
+    .pest_box.pest__box::before {
+        height: 180px;
+        max-width: 315px;
+        top: -15px;
+    }
+
+    .step_line.step_line2 img {
+        padding-left: 125px;
+    }
+
+    .step_line.step_line2 {
+        margin-top: 0px;
+    }
+
+    .customer_wrap {
+        padding-top: 50px;
+        margin-top: 50px;
+        background-size: auto;
+    }
+
+    .customer_wrap .quote_img {
+        width: 40px;
+        top: -15px;
+    }
+
+    .customer_box p {
+        font-size: 16px;
+    }
+
+    .customer_box h2 {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .footer_wrap .footer_inner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer_wrap .custom_gap {
+        gap: 10px 0;
+    }
+
+    .footer_content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .footer_content li+li {
+        margin-top: 10px;
+    }
+
+    .footer_content.newsletter_wrap p {
+        font-size: 17px;
+    }
+
+    .button.subscribe_btn {
+        padding: 10px 15px;
+    }
+
+    .footer_content .footer_form {
+        height: 45px;
+    }
+
+    .footer_social {
+        padding-top: 15px;
+    }
+
+    .footer_social .social_icons {
+        margin-top: 10px;
+    }
+
+    .btnz_wrap {
+        justify-content: center;
+    }
+
+    .hero_wrap .slide_img img {
+        border-radius: 0px 0px 50px 0;
+    }
+
+    .slide_wrap .slide_img::before {
+        border-radius: 0px 0px 50px 0;
+    }
+
+    .blog_wrap ul {
+        width: 100%;
+    }
+
+    .blog_wrap li+li {
+        margin-top: 15px;
+    }
+
+    .publish_wrap ul {
+        width: fit-content !important;
+        margin: 0;
+    }
+
+    .publish_wrap li+li {
+        margin-top: 3px !important;
+    }
+
+    .publish_wrap img {
+        width: 30px;
+    }
+
+    .publish_wrap .publish_content {
+        max-width: 140px;
+    }
+
+    .publish_wrap {
+        width: 100%;
+    }
+
+    .publish_wrap li {
+        font-size: 15px;
+    }
+
+    .call_btn {
+        display: flex;
+    }
+}
